@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                      = "SwiftyJsonMapper"
-  s.version                   = "1.2.2"
+  s.version                   = “1.2.3”
   s.summary                   = "A JSON Object Mapping library for Swift"
   s.homepage                  = "https://github.com/fazilakhter/SwiftyJsonMapper"
   s.license                   = "MIT License"
