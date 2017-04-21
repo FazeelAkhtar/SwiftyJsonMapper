@@ -1,5 +1,7 @@
 import Foundation
 
+// Transform to dictionary
+
 public extension Transform {
     public static func toDictionary<T, U>(key getKey: @escaping (T) -> U) ->
         (_ object: Any) throws -> [U: T] where T: Mappable, U: Hashable

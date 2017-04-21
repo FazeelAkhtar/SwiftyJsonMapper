@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98E692641EAA33B800A9B05F /* SwiftyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E692631EAA33B800A9B05F /* SwiftyTest.swift */; };
+		98E692731EAA33CF00A9B05F /* ConvertibleValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E6926A1EAA33CF00A9B05F /* ConvertibleValueTests.swift */; };
+		98E692741EAA33CF00A9B05F /* CustomTransformationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E6926B1EAA33CF00A9B05F /* CustomTransformationTests.swift */; };
+		98E692751EAA33CF00A9B05F /* JsonErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E6926C1EAA33CF00A9B05F /* JsonErrorTests.swift */; };
+		98E692761EAA33CF00A9B05F /* JsonInitializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E6926D1EAA33CF00A9B05F /* JsonInitializerTests.swift */; };
+		98E692771EAA33CF00A9B05F /* JsonMappableValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E6926E1EAA33CF00A9B05F /* JsonMappableValueTests.swift */; };
+		98E692781EAA33CF00A9B05F /* JsonNormalValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E6926F1EAA33CF00A9B05F /* JsonNormalValueTests.swift */; };
+		98E692791EAA33CF00A9B05F /* JsonTransformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E692701EAA33CF00A9B05F /* JsonTransformTests.swift */; };
+		98E6927A1EAA33CF00A9B05F /* OptionalValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E692711EAA33CF00A9B05F /* OptionalValueTests.swift */; };
+		98E6927B1EAA33CF00A9B05F /* RawRepresentibleValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E692721EAA33CF00A9B05F /* RawRepresentibleValueTests.swift */; };
 		C201748E1BD5509D00E4FE18 /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20174831BD5509D00E4FE18 /* Mapper.framework */; };
 		C20586EC1CDEAD9900658A67 /* DefaultConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20586EB1CDEAD9900658A67 /* DefaultConvertible.swift */; };
-		C207F6E41D7F286700EBCC74 /* ConvertibleValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207F6DB1D7F286700EBCC74 /* ConvertibleValueTests.swift */; };
-		C207F6E51D7F286700EBCC74 /* CustomTransformationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207F6DC1D7F286700EBCC74 /* CustomTransformationTests.swift */; };
-		C207F6E61D7F286700EBCC74 /* ErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207F6DD1D7F286700EBCC74 /* ErrorTests.swift */; };
-		C207F6E71D7F286700EBCC74 /* InitializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207F6DE1D7F286700EBCC74 /* InitializerTests.swift */; };
-		C207F6E81D7F286700EBCC74 /* MappableValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207F6DF1D7F286700EBCC74 /* MappableValueTests.swift */; };
-		C207F6E91D7F286700EBCC74 /* NormalValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207F6E01D7F286700EBCC74 /* NormalValueTests.swift */; };
-		C207F6EA1D7F286700EBCC74 /* OptionalValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207F6E11D7F286700EBCC74 /* OptionalValueTests.swift */; };
-		C207F6EB1D7F286700EBCC74 /* RawRepresentibleValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207F6E21D7F286700EBCC74 /* RawRepresentibleValueTests.swift */; };
-		C207F6EC1D7F286700EBCC74 /* TransformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207F6E31D7F286700EBCC74 /* TransformTests.swift */; };
 		C2B2A5761D3DE82700F7E7DE /* NSDictionary+Safety.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B2A5751D3DE82700F7E7DE /* NSDictionary+Safety.swift */; };
 		C2C036FA1C2B1A0B003FB853 /* Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C036F31C2B1A0B003FB853 /* Convertible.swift */; };
 		C2C036FB1C2B1A0B003FB853 /* MapperError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C036F41C2B1A0B003FB853 /* MapperError.swift */; };
@@ -39,18 +40,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98E692611EAA33B800A9B05F /* SwiftyTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E692631EAA33B800A9B05F /* SwiftyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyTest.swift; sourceTree = "<group>"; };
+		98E692651EAA33B800A9B05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E6926A1EAA33CF00A9B05F /* ConvertibleValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertibleValueTests.swift; sourceTree = "<group>"; };
+		98E6926B1EAA33CF00A9B05F /* CustomTransformationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTransformationTests.swift; sourceTree = "<group>"; };
+		98E6926C1EAA33CF00A9B05F /* JsonErrorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonErrorTests.swift; sourceTree = "<group>"; };
+		98E6926D1EAA33CF00A9B05F /* JsonInitializerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonInitializerTests.swift; sourceTree = "<group>"; };
+		98E6926E1EAA33CF00A9B05F /* JsonMappableValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonMappableValueTests.swift; sourceTree = "<group>"; };
+		98E6926F1EAA33CF00A9B05F /* JsonNormalValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonNormalValueTests.swift; sourceTree = "<group>"; };
+		98E692701EAA33CF00A9B05F /* JsonTransformTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonTransformTests.swift; sourceTree = "<group>"; };
+		98E692711EAA33CF00A9B05F /* OptionalValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalValueTests.swift; sourceTree = "<group>"; };
+		98E692721EAA33CF00A9B05F /* RawRepresentibleValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawRepresentibleValueTests.swift; sourceTree = "<group>"; };
 		C20174831BD5509D00E4FE18 /* Mapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C201748D1BD5509D00E4FE18 /* MapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20586EB1CDEAD9900658A67 /* DefaultConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultConvertible.swift; sourceTree = "<group>"; };
-		C207F6DB1D7F286700EBCC74 /* ConvertibleValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertibleValueTests.swift; sourceTree = "<group>"; };
-		C207F6DC1D7F286700EBCC74 /* CustomTransformationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTransformationTests.swift; sourceTree = "<group>"; };
-		C207F6DD1D7F286700EBCC74 /* ErrorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTests.swift; sourceTree = "<group>"; };
-		C207F6DE1D7F286700EBCC74 /* InitializerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitializerTests.swift; sourceTree = "<group>"; };
-		C207F6DF1D7F286700EBCC74 /* MappableValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MappableValueTests.swift; sourceTree = "<group>"; };
-		C207F6E01D7F286700EBCC74 /* NormalValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalValueTests.swift; sourceTree = "<group>"; };
-		C207F6E11D7F286700EBCC74 /* OptionalValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalValueTests.swift; sourceTree = "<group>"; };
-		C207F6E21D7F286700EBCC74 /* RawRepresentibleValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawRepresentibleValueTests.swift; sourceTree = "<group>"; };
-		C207F6E31D7F286700EBCC74 /* TransformTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformTests.swift; sourceTree = "<group>"; };
 		C2B2A5751D3DE82700F7E7DE /* NSDictionary+Safety.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+Safety.swift"; sourceTree = "<group>"; };
 		C2C036D11C2B180D003FB853 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2C036D41C2B180D003FB853 /* UniversalFramework_Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Base.xcconfig; sourceTree = "<group>"; };
@@ -66,6 +70,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		98E6925E1EAA33B800A9B05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C201748A1BD5509D00E4FE18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,12 +88,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98E692621EAA33B800A9B05F /* SwiftyTest */ = {
+			isa = PBXGroup;
+			children = (
+				98E692691EAA33CF00A9B05F /* SwiftyMapperTests */,
+				98E692631EAA33B800A9B05F /* SwiftyTest.swift */,
+				98E692651EAA33B800A9B05F /* Info.plist */,
+			);
+			path = SwiftyTest;
+			sourceTree = "<group>";
+		};
+		98E692691EAA33CF00A9B05F /* SwiftyMapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				98E6926A1EAA33CF00A9B05F /* ConvertibleValueTests.swift */,
+				98E6926B1EAA33CF00A9B05F /* CustomTransformationTests.swift */,
+				98E6926C1EAA33CF00A9B05F /* JsonErrorTests.swift */,
+				98E6926D1EAA33CF00A9B05F /* JsonInitializerTests.swift */,
+				98E6926E1EAA33CF00A9B05F /* JsonMappableValueTests.swift */,
+				98E6926F1EAA33CF00A9B05F /* JsonNormalValueTests.swift */,
+				98E692701EAA33CF00A9B05F /* JsonTransformTests.swift */,
+				98E692711EAA33CF00A9B05F /* OptionalValueTests.swift */,
+				98E692721EAA33CF00A9B05F /* RawRepresentibleValueTests.swift */,
+			);
+			path = SwiftyMapperTests;
+			sourceTree = "<group>";
+		};
 		C20174791BD5509D00E4FE18 = {
 			isa = PBXGroup;
 			children = (
 				C2C036F21C2B1A0B003FB853 /* Sources */,
-				C2C037011C2B1A14003FB853 /* Tests */,
 				C2C036D01C2B180D003FB853 /* Resources */,
+				98E692621EAA33B800A9B05F /* SwiftyTest */,
 				C20174841BD5509D00E4FE18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,24 +129,9 @@
 			children = (
 				C20174831BD5509D00E4FE18 /* Mapper.framework */,
 				C201748D1BD5509D00E4FE18 /* MapperTests.xctest */,
+				98E692611EAA33B800A9B05F /* SwiftyTest.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C207F6DA1D7F286700EBCC74 /* MapperTests */ = {
-			isa = PBXGroup;
-			children = (
-				C207F6DB1D7F286700EBCC74 /* ConvertibleValueTests.swift */,
-				C207F6DC1D7F286700EBCC74 /* CustomTransformationTests.swift */,
-				C207F6DD1D7F286700EBCC74 /* ErrorTests.swift */,
-				C207F6DE1D7F286700EBCC74 /* InitializerTests.swift */,
-				C207F6DF1D7F286700EBCC74 /* MappableValueTests.swift */,
-				C207F6E01D7F286700EBCC74 /* NormalValueTests.swift */,
-				C207F6E11D7F286700EBCC74 /* OptionalValueTests.swift */,
-				C207F6E21D7F286700EBCC74 /* RawRepresentibleValueTests.swift */,
-				C207F6E31D7F286700EBCC74 /* TransformTests.swift */,
-			);
-			path = MapperTests;
 			sourceTree = "<group>";
 		};
 		C2C036D01C2B180D003FB853 /* Resources */ = {
@@ -147,17 +169,26 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		C2C037011C2B1A14003FB853 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				C207F6DA1D7F286700EBCC74 /* MapperTests */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		98E692601EAA33B800A9B05F /* SwiftyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98E692661EAA33B800A9B05F /* Build configuration list for PBXNativeTarget "SwiftyTest" */;
+			buildPhases = (
+				98E6925D1EAA33B800A9B05F /* Sources */,
+				98E6925E1EAA33B800A9B05F /* Frameworks */,
+				98E6925F1EAA33B800A9B05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyTest;
+			productName = SwiftyTest;
+			productReference = 98E692611EAA33B800A9B05F /* SwiftyTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C20174821BD5509D00E4FE18 /* Mapper */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C20174971BD5509D00E4FE18 /* Build configuration list for PBXNativeTarget "Mapper" */;
@@ -196,10 +227,15 @@
 		C201747A1BD5509D00E4FE18 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0800;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Lyft;
 				TargetAttributes = {
+					98E692601EAA33B800A9B05F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K97S8ZLKGF;
+						ProvisioningStyle = Automatic;
+					};
 					C20174821BD5509D00E4FE18 = {
 						CreatedOnToolsVersion = 7.0;
 						LastSwiftMigration = 0800;
@@ -224,11 +260,39 @@
 			targets = (
 				C20174821BD5509D00E4FE18 /* Mapper */,
 				C201748C1BD5509D00E4FE18 /* MapperTests */,
+				98E692601EAA33B800A9B05F /* SwiftyTest */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		98E6925F1EAA33B800A9B05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		98E6925D1EAA33B800A9B05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E6927B1EAA33CF00A9B05F /* RawRepresentibleValueTests.swift in Sources */,
+				98E692741EAA33CF00A9B05F /* CustomTransformationTests.swift in Sources */,
+				98E692771EAA33CF00A9B05F /* JsonMappableValueTests.swift in Sources */,
+				98E6927A1EAA33CF00A9B05F /* OptionalValueTests.swift in Sources */,
+				98E692641EAA33B800A9B05F /* SwiftyTest.swift in Sources */,
+				98E692751EAA33CF00A9B05F /* JsonErrorTests.swift in Sources */,
+				98E692791EAA33CF00A9B05F /* JsonTransformTests.swift in Sources */,
+				98E692781EAA33CF00A9B05F /* JsonNormalValueTests.swift in Sources */,
+				98E692731EAA33CF00A9B05F /* ConvertibleValueTests.swift in Sources */,
+				98E692761EAA33CF00A9B05F /* JsonInitializerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C201747E1BD5509D00E4FE18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,15 +313,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C207F6E71D7F286700EBCC74 /* InitializerTests.swift in Sources */,
-				C207F6E41D7F286700EBCC74 /* ConvertibleValueTests.swift in Sources */,
-				C207F6EB1D7F286700EBCC74 /* RawRepresentibleValueTests.swift in Sources */,
-				C207F6EC1D7F286700EBCC74 /* TransformTests.swift in Sources */,
-				C207F6E51D7F286700EBCC74 /* CustomTransformationTests.swift in Sources */,
-				C207F6E81D7F286700EBCC74 /* MappableValueTests.swift in Sources */,
-				C207F6EA1D7F286700EBCC74 /* OptionalValueTests.swift in Sources */,
-				C207F6E91D7F286700EBCC74 /* NormalValueTests.swift in Sources */,
-				C207F6E61D7F286700EBCC74 /* ErrorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +327,44 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		98E692671EAA33B800A9B05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K97S8ZLKGF;
+				INFOPLIST_FILE = SwiftyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyTest.SwiftyTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		98E692681EAA33B800A9B05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K97S8ZLKGF;
+				INFOPLIST_FILE = SwiftyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyTest.SwiftyTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		C20174951BD5509D00E4FE18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -285,8 +378,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -331,8 +426,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -436,6 +533,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		98E692661EAA33B800A9B05F /* Build configuration list for PBXNativeTarget "SwiftyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E692671EAA33B800A9B05F /* Debug */,
+				98E692681EAA33B800A9B05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C201747D1BD5509D00E4FE18 /* Build configuration list for PBXProject "Mapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

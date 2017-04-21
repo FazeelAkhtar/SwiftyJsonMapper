@@ -11,6 +11,11 @@ public struct Mapper {
         self.JSON = JSON
     }
 
+    
+    /**
+     Map From Generic Value
+     */
+    
 
     public func from<T: RawRepresentable>(_ field: String) throws -> T {
         let object = try self.JSONFromField(field)
@@ -25,10 +30,19 @@ public struct Mapper {
         return value
     }
 
+    
+    /**
+     Map From optional Generic Value
+     */
+    
     public func optionalFrom<T: RawRepresentable>(_ field: String) -> T? {
         return try? self.from(field)
     }
 
+
+    /**
+     Map From Generic Values as Array
+     */
     
     
     public func optionalFrom<T: RawRepresentable>(_ fields: [String]) -> T? {
@@ -42,6 +56,10 @@ public struct Mapper {
     }
 
 
+    /**
+        Map From Generic Value and Field Name
+     */
+    
     public func from<T: RawRepresentable>(_ field: String, defaultValue: T? = nil) throws ->
         [T] where T.RawValue: Convertible, T.RawValue == T.RawValue.ConvertedType
     {
@@ -56,6 +74,10 @@ public struct Mapper {
 
 
 
+    /**
+     Map From Generic Field name
+     */
+    
     public func from<T: Mappable>(_ field: String) throws -> T {
         let value = try self.JSONFromField(field)
         if let JSON = value as? NSDictionary {
@@ -66,6 +88,12 @@ public struct Mapper {
     }
 
 
+    /**
+     Map From Generic Value FieldName into Array of Generic
+     */
+    
+    
+    
     public func from<T: Mappable>(_ field: String) throws -> [T] {
         let value = try self.JSONFromField(field)
         if let JSON = value as? [NSDictionary] {
